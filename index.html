@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <!-- project 01 -->
+    <div class="container">
+      <h1>Project 01 Calculator</h1>
+      
+      <div class="calculator">
+        <input type="text" name="screen" id="screen" class="input">
+        <table>
+          <tr>
+            <td><button id="button">(</button></td>
+            <td><button id="button">)</button></td>
+            <td><button id="button">c</button></td>
+            <td><button id="button">%</button></td>
+          </tr> <tr>
+            <td><button id="button">7</button></td>
+            <td><button id="button">8</button></td>
+            <td><button id="button">9</button></td>
+            <td><button id="button">x</button></td>
+          </tr> <tr>
+            <td><button id="button">4</button></td>
+            <td><button id="button">5</button></td>
+            <td><button id="button">6</button></td>
+            <td><button id="button">-</button></td>
+          </tr>
+           <tr>
+            <td><button id="button">1</button></td>
+            <td><button id="button">2</button></td>
+            <td><button id="button">3</button></td>
+            <td><button id="button">+</button></td>
+          </tr> <tr>
+            <td><button id="button">0</button></td>
+            <td><button id="button">.</button></td>
+            <td><button id="button">/</button></td>
+            <td><button id="button">=</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- project 02-->
+    <div class="watch-container">
+        <h1 >project 02 StopWatch</h1>
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <input type="button" value="start" id="button-start">
+        <input type="button" value="stop" id="button-stop">
+        <input type="button" value="reset" id="button-reset">
+       
+      </div>
+
+      <!-- Project 03 -->
+       <div class="container-tip">
+         <h1>Project 03 Tip Calculator</h1>
+         <div class="inp">
+          <span class="bg">$</span>
+          <input type="number" id="num" placeholder="Enter amount" style="height: 35px;">
+       </div>
+        <div class="inp">
+          <label for="tip">Tip</label>
+          <input type="range" name="range" id="range" min="0" max="100" value="0" step="1">
+          <span class="ran"></span>
+        </div>
+        <div class="inp">
+          <div class="tip">
+            <span class="border">Tip Amount:</span>
+            <span class="tipamt"></span>
+          </div><div class="amt">
+            <span class="border">Total bill:</span>
+            <span class="bill"></span>
+          </div>
+        </div>
+       </div>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,88 @@
+/* Project 01 */
+.container{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+.input{
+    border: 3px solid rgb(88, 81, 81);
+    font-size: 20px;
+    border-radius: 5px;
+}
+#button{
+    font-size: 23px;
+    background-color: rgb(142, 146, 143);
+    width: 62px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.calculator{
+
+    background-color: #ff99f7;
+    border-radius: 20px;
+    padding: 23px;
+    display: inline-block;
+}
+
+/* Project 02 */
+.watch-container{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#button-stop{
+    font-size: 23px;
+    background-color: rgb(227, 236, 229);
+    width: 62px;
+    height: 35px;
+    color: rgb(39, 37, 37);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button-start{
+    font-size: 23px;
+    background-color: rgb(33, 131, 58);
+    width: 62px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button-reset{
+    font-size: 23px;
+    background-color: rgb(47, 68, 52);
+    width: 62px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+/* // Project 03 */
+.container-tip{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.inp{
+    position: relative;
+    margin-top: 20px;
+}
+.bg,.ran{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ddd;
+}
+.inp input{
+    /* width: 100%; */
+    padding: 0px 5px;
+    border: 2px solid #ddd;
+    outline-color: #719ece;
+}
